@@ -9,8 +9,8 @@ WORKDIR /app
 RUN wget https://staging.dev.goracle.io/downloads/latest-staging/goracle && \
     chmod u+x ./goracle
 
-COPY script.sh script.sh
+# COPY script.sh script.sh
 
-RUN chmod +x script.sh
+# RUN chmod +x script.sh
 
-CMD ["./script.sh"]
+CMD ["./goracle"]
