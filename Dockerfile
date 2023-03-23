@@ -4,11 +4,10 @@ RUN apt-get update && \
     apt-get install -y wget docker.io docker-compose && \
     rm -rf /var/lib/apt/lists/*
 
-WORKDIR /root/.goracle
+WORKDIR /app
 
 RUN wget https://staging.dev.goracle.io/downloads/latest-staging/goracle && \
-    chmod u+x ./goracle && \
-    ./goracle
+    chmod u+x ./goracle
 
 COPY script.sh script.sh
 
