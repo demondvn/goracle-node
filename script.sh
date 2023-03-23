@@ -2,6 +2,6 @@
 #~/.goracle
 
 if [ ! -d "~/.goracle" ]; then 
-  echo "Y/n" | ./goracle init 
+  echo -e "y/n" | ./goracle init 
 fi
 ./goracle docker-start
