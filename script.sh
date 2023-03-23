@@ -1,7 +1,7 @@
 #!/bin/bash
 #~/.goracle
-./goracle -h
+./goracle --help
 if [ ! -d "~/.goracle" ]; then 
   echo -e "y/n" | ./goracle init 
 fi
-./goracle docker-start
+./goracle docker-start $@
