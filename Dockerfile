@@ -4,7 +4,7 @@ RUN apt-get update && \
     apt-get install -y wget docker.io docker-compose && \
     rm -rf /var/lib/apt/lists/*
 
-WORKDIR /app
+WORKDIR /root/.goracle
 
 RUN wget https://staging.dev.goracle.io/downloads/latest-staging/goracle && \
     chmod u+x ./goracle && \
