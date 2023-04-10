@@ -13,4 +13,4 @@ RUN wget https://staging.dev.goracle.io/downloads/latest-staging/goracle && \
 
 # RUN chmod +x script.sh
 
-CMD ["./goracle"]
+CMD ["./goracle","@$"]
