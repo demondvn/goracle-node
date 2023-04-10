@@ -1,7 +1,7 @@
 # goracle-node
 
 ## Create Config
-    https://staging.dev.goracle.io/downloads/latest-staging/goracle
+    wget https://staging.dev.goracle.io/downloads/latest-staging/goracle
     chmod +x goracle
     ./goracle
 
