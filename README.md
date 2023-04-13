@@ -15,3 +15,7 @@
     docker update --restart=unless-stopped goracle-nr
 ## Docs
 [https://docs.goracle.io/technical-documentation/](https://docs.goracle.io/technical-documentation/)
+
+## VM
+    ./goracle init
+    ./goracle docker-start --background
